@@ -107,7 +107,6 @@
   width: auto;
   height: auto;
   display: flex;
-  position: absolute;
-  max-width: 500px;
+  max-width: 200px;
   /* display: inline; */
 }
