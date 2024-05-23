@@ -23,7 +23,7 @@ function Navbar() {
       </div>
       <div className="rightSide">
         <Link to="/"> Home </Link>
-        <Link to="/services"> Services </Link>
+        <Link to="/menu"> Services </Link>
         <Link to="/about"> About </Link>
         <Link to="/contact"> Contact </Link>
         <button onClick={toggleNavbar}>

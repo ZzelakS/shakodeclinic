@@ -12,10 +12,13 @@
 
 .socialMedia svg {
   color: white;
-  margin: 20px;
+  margin: 5px;
   font-size: 70px;
   cursor: pointer;
+  width: 50px;
 }
+
+.socialMedia {}
 
 .footer p {
   color: white;

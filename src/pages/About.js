@@ -9,7 +9,7 @@ function About() {
         style={{ backgroundImage: `url(${MultiplePizzas})` }}
       ></div>
       <div className="aboutBottom">
-        <h1> ABOUT US</h1>
+        <h3> ABOUT US</h3>
         <p>
           We provide compassionate care and promote healthy lifestyle through the use of natural herbs(tewe-tegbo) and traditional knowledge that has been passed down through generations
         </p>

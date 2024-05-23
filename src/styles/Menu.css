@@ -34,6 +34,11 @@
   cursor: pointer;
 }
 
+.services {
+  display: flex;
+  justify-content: center;
+}
+
 .menuItem div {
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;

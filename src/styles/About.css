@@ -23,14 +23,20 @@
 }
 
 .aboutBottom p {
-  width: 1200px;
+  width: 800px;
 }
 
-.about .aboutBottom h1 {
+.about .aboutBottom h3 {
   font-weight: 400;
-  font-size: 70px;
+  font-size: 50px;
   color: rgb(16, 160, 52);
   height: 30px;
+  display: flex;
+  justify-content: center;
+  transform: translateY(-40px);
+}
+
+.about .aboutBottom p {
   display: flex;
   justify-content: center;
   transform: translateY(-40px);

@@ -84,4 +84,7 @@ form button {
 h4 {
   line-height: 20px;
   padding-bottom: 50px;
+  margin-left: 50px;
+  font-weight: 100;
+  line-height: 30px;
 }

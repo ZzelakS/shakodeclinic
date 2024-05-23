@@ -24,12 +24,14 @@ function Contact() {
             required
           ></textarea>
           <button type="submit"> Send Message</button>
-        </form>
+        <div>
         <h4>
-          39, Abike Jokogbola Street, Sholebo Estate, Ikorodu, Lagos Nigeria{" "}
-          <br></br>shakodeherbs@gmailcom<br></br>
+          shakodeherbs@gmail.com
+          <br></br>
           +2347057916440
         </h4>
+      </div>
+        </form>
       </div>
     </div>
   );
