@@ -16,7 +16,7 @@ function Navbar() {
         <img className="Logo" src={Logo}/>
         <div className="hiddenLinks">
           <Link to="/"> Home </Link>
-          <Link to="/services"> Services </Link>
+          <Link to="/menu"> Services </Link>
           <Link to="/about"> About </Link>
           <Link to="/contact"> Contact </Link>
         </div>
