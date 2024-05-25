@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import BannerImage from "../assets/logo.png";
 import "../styles/Home.css";
+import { ImageSlider } from "../components/ImageSlider.js";
 
 function Home() {
   return (
@@ -14,6 +15,7 @@ function Home() {
           <button> Our Services</button>
         </Link>
       </div>
+        <ImageSlider />
     </div>
   );
 }

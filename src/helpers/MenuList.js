@@ -17,7 +17,7 @@ export const MenuList = [
     // price: 11.99,
   },
   {
-    name: "Book a Session",
+    name: "Book a Consultation",
     image: PedroTechSpecial,
     // price: 256.53,
   },

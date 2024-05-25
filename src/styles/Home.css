@@ -6,10 +6,10 @@
   align-items: left;
   flex-direction: column;
   background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-repeat: repeat-y;
+  background-size: 1300px;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  background-image: url(/src/assets/background.png);
+  background-image: url(/src/assets/7.gif);
   text-shadow: 1px 1px 2px black, 0 0 25px rgb(5, 112, 32), 0 0 5px rgb(81, 226, 117);
 }
 
