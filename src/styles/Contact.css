@@ -81,10 +81,34 @@ form button {
   cursor: pointer;
 }
 
-h4 {
+.details {
   line-height: 20px;
   padding-bottom: 50px;
   /* margin-left: 50px; */
   font-weight: 100;
   line-height: 30px;
+}
+
+@media only screen and (max-width: 900px) {
+  .navbar .rightSide a {
+    width: 70px;
+    display: none;
+  }
+  /* .navbar .rightSide  {
+    width: 70px;
+    display: none;
+  } */
+  .navbar .leftSide {
+    padding-left: 50px;
+  }
+  .navbar .rightSide button {
+    display: inherit;
+    position: fixed;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .navbar .rightSide a {
+    display: none;
+  }
 }

@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import BannerImage from "../assets/logo.png";
 import "../styles/Home.css";
-import { ImageSlider } from "../components/ImageSlider.js";
+import Slider from "../components/Slider.js";
 
 function Home() {
   return (
@@ -14,8 +14,8 @@ function Home() {
         <Link to="/menu">
           <button> Our Services</button>
         </Link>
+        <Slider/>
       </div>
-        <ImageSlider />
     </div>
   );
 }

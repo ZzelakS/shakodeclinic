@@ -24,12 +24,12 @@ function Contact() {
             required
           ></textarea>
           <button type="submit"> Send Message</button>
-        <div>
-        <h4>
+        <div className="details">
+        <p>
           shakodeherbs@gmail.com
           <br></br>
           +2347057916440
-        </h4>
+        </p>
       </div>
         </form>
       </div>

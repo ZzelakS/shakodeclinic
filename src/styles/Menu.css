@@ -8,7 +8,8 @@
 }
 .menu .menuTitle {
   font-family: cursive;
-  font-size: 60px;
+  font-size: 40px;
+  margin-top: 50px;
 }
 
 .menuList {
@@ -37,6 +38,7 @@
 .services {
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .menuItem div {
@@ -49,9 +51,11 @@
   background-size: cover;
 }
 
-.menuItem h1,
+.menuItem h3,
 .menuItem p {
-  margin-left: 20px;
+  margin-left: 25px;
+  margin-top: 50px;
+  font-family: cursive;
 }
 
 @media only screen and (max-width: 1300px) {

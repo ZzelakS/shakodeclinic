@@ -21,7 +21,7 @@
 }
 
 .navbar .rightSide {
-  flex: 50%;
+  flex: auto;
   height: 100%;
   display: flex;
   align-items: center;
@@ -39,6 +39,9 @@
   border: none;
   color: white;
   cursor: pointer;
+  height: auto;
+  position: fixed;
+  display: none;
 }
 
 .navbar .rightSide svg {
@@ -69,12 +72,38 @@
   width: 70px;
   margin: 5px;
 }
+@media only screen and (max-width: 1200px) {
+  .navbar .rightSide a {
+    width: 70px;
+    display: none;
+  }
+  /* .navbar .rightSide  {
+    width: 70px;
+    display: none;
+  } */
+  .navbar .leftSide {
+    padding-left: 50px;
+  }
+  .navbar .rightSide button {
+    display: inherit;
+    position: fixed;
+  }
+}
 @media only screen and (max-width: 900px) {
   .navbar .rightSide a {
     width: 70px;
+    display: none;
   }
+  /* .navbar .rightSide  {
+    width: 70px;
+    display: none;
+  } */
   .navbar .leftSide {
     padding-left: 50px;
+  }
+  .navbar .rightSide button {
+    display: inherit;
+    position: fixed;
   }
 }
 
@@ -90,12 +119,15 @@
 
   .navbar .rightSide button {
     display: inherit;
+    position: fixed;
+    /* top: 0; */
   }
 }
 
 @media only screen and (min-width: 600px) {
   .navbar .rightSide button {
-    display: none;
+    /* display: none; */
+    position: relative;
   }
 
   .hiddenLinks {

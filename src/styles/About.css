@@ -1,3 +1,13 @@
+body {
+  background-image: url('../assets/bg.png');
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  /* background-repeat: no-repeat; */
+  background-size: cover;
+
+}
+
 .about {
   width: 100%;
   height: 90vh;
@@ -7,9 +17,9 @@
 
 .aboutTop {
   width: 100%;
-  height: 45%;
+  height: 100%;
   background-position: center;
-  background-repeat: no-repeat;
+  /* background-repeat: no-repeat; */
   background-size: cover;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
@@ -18,12 +28,18 @@
   display: flex;
   flex-direction: column;
   height: 55%;
+  justify-content: center;
   align-items: center;
   margin-top: 50px;
 }
 
 .aboutBottom p {
-  width: 800px;
+  /* width: 800px; */
+  display: flex;
+  word-wrap: break-word;
+  text-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
 
 .about .aboutBottom h3 {
@@ -39,5 +55,33 @@
 .about .aboutBottom p {
   display: flex;
   justify-content: center;
-  transform: translateY(-40px);
+  align-items: center;
+  /* transform: translateY(-40px); */
+  word-wrap: break-word;
+}
+
+.about-text {
+  margin-top: 70px;
+  font-size: large;
+  font-style: italic;
+  font-family: cursive;
+  justify-content: center;
+  align-items: center;
+}
+
+@media only screen and (max-width: 900px) {
+  .aboutBottom p {
+      justify-content: center;
+      align-content: center;
+      text-wrap: balance;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .aboutBottom p {
+    justify-content: center;
+    align-content: center;
+    text-wrap: balance;
+      /* padding-left: -1600px; */
+  }
 }
