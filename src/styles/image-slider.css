@@ -1,20 +1,20 @@
 .slide-container {
     /* display: flex; */
-    width: 1000px;
-    justify-self: center;
-    align-self: center;
-    padding-left: 200px;
+    width: auto;
+    justify-content: center;
+    align-items: center;
+    /* padding-left: 200px; */
     height: 400px;
     object-fit: fill;
-    z-index: 1;
+    /* z-index: 1; */
     box-shadow: 2px 2px 1px 1px;
 }
 
 @media only screen and (max-width: 900px) {
     .slide-container {
         width: 700px;
-        justify-self: center;
-        align-self: center;
+        justify-content: center;
+        align-items: center;
         padding-left: 200px;
     }
   }
@@ -22,8 +22,9 @@
   @media only screen and (max-width: 600px) {
     .slide-container {
         width: 500px;
-        justify-self: center;
-        align-self: center;
+        justify-content: center;
+        align-items: center;
+        object-fit: fill;
         /* padding-left: -1600px; */
     }
   }
