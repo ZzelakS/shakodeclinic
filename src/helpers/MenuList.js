@@ -12,7 +12,7 @@ export const MenuList = [
     // price: 
   },
   {
-    name: "Consultation",
+    name: "Detoxifiers",
     image: Margherita,
     // price: 11.99,
   },
