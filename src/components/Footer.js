@@ -20,10 +20,10 @@ const Footer = () => {
                         </div>
                         <div className="col-md-6 col-lg-3 col-12 ft-2">
                             <h5>Opening Hours</h5>
-                            <p>Everyday: 11AM - 5PM</p>
+                            <p>Everyday: 8AM - 6PM</p>
                         </div>
                         <div className="col-md-6 col-lg-4 col-12 ft-3">
-                            <h5>WhatsApp Contact</h5>
+                            <h5>Contact</h5>
                             <p><i class="fa-solid fa-phone-volume"></i> +234 705 791 6440</p>
                             <p><i class="fa-solid fa-envelope"></i> shakodeherbs@gmail.com</p>
                         </div>
