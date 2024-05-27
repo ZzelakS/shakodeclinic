@@ -7,12 +7,12 @@ import PedroTechSpecial from "../assets/6.jpeg";
 
 export const ProductList = [
   {
-    name: "Aphrodisiacs",
+    name: "Herbs",
     image: Pepperoni,
     // price: 
   },
   {
-    name: "Body Cleansers",
+    name: "Aphrodisiacs",
     image: Margherita,
     // price: 11.99,
   },
