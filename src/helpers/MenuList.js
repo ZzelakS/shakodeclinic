@@ -6,16 +6,16 @@ import PedroTechSpecial from "../assets/background.png";
 // import Expensive from "../assets/expensive.jpg";
 
 export const MenuList = [
-  {
-    name: "Herbal Products",
-    image: Pepperoni,
-    // price: 
-  },
-  {
-    name: "Detoxifiers",
-    image: Margherita,
-    // price: 11.99,
-  },
+  // {
+  //   name: "Herbal Products",
+  //   image: Pepperoni,
+  //   // price: 
+  // },
+  // {
+  //   name: "Detoxifiers",
+  //   image: Margherita,
+  //   // price: 11.99,
+  // },
   {
     name: "Book a Consultation",
     image: PedroTechSpecial,
