@@ -1,5 +1,5 @@
 import Pepperoni from "../assets/5.jpeg";
-import Margherita from "../assets/4.jpeg";
+import Margherita from "../assets/1.jpeg";
 import PedroTechSpecial from "../assets/background.png";
 // import Vegan from "../assets/background.png";
 // import Pineapple from "../assets/pineapple.jpg";
