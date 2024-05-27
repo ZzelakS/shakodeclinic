@@ -17,7 +17,7 @@ export const ProductList = [
     // price: 11.99,
   },
   {
-    name: "Sexual Enhancement",
+    name: "Edibles",
     image: PedroTechSpecial,
     // price: 256.53,
   },
