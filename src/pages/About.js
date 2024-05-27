@@ -7,7 +7,7 @@ function About() {
       <div className="aboutBottom">
         <h3> ABOUT US</h3>
         <p className="about-text">
-          We provide compassionate care and promote healthy lifestyle through the use of natural herbs(tewe-tegbo) and traditional knowledge that has been passed down through generations
+          We provide compassionate care and promote healthy lifestyle through the use of natural herbs(tewe-tegbo) and traditional knowledge that has been passed down through generations.
         </p>
       </div>
     </div>
